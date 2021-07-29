@@ -4,6 +4,6 @@ Docker image ensuring journald and container logs on a kubernetes node is readab
 
 Mount `/var/log` and `/var/lib/docker/containers` on the host in the container.
 
-## Build and release image on GPR
+## Build and release image on GHCR
 
 Push a new numeric tag.
