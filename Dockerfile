@@ -1,4 +1,4 @@
-FROM alpine:3.14.0
+FROM alpine:3.15.0
 
 ENV ACL_GID 666
 ENV SLEEP 30
