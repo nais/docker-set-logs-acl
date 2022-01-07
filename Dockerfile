@@ -6,7 +6,6 @@ ENV SLEEP 30
 RUN apk add --no-cache acl
 
 VOLUME /var/log
-VOLUME /var/lib/docker/containers
 
 COPY set-logs-acl.sh /
 
